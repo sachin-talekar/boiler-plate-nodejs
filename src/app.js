@@ -12,6 +12,7 @@ import helmet from 'helmet'
 
 const { BODY_LIMIT, CORS_ORIGIN, CORS_METHODS, PARAMETERLIMIT } = SERVER_CONFIG
 
+//initalizing express
 const app = new Express()
 const corsOptions = { origin: CORS_ORIGIN, methods: CORS_METHODS }
 // Middleware Initializations
