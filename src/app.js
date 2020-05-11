@@ -8,6 +8,8 @@ import { SERVER_CONFIG } from './config'
 import server from './server'
 import helmet from 'helmet'
 
+//THIS IS A TEST COMMENT
+
 const { BODY_LIMIT, CORS_ORIGIN, CORS_METHODS, PARAMETERLIMIT } = SERVER_CONFIG
 
 const app = new Express()
